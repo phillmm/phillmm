@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Monsalve" />
+    <title>Felipe Monsalve</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Estidos -->
+    <link rel="Preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="Preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Scripts -->
+    <script src="JS/fm.js"></script>
+
+    <!-- Librería Parallax-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="JS/parallax/parallax.min.js"></script>
+
+    <!-- Librería AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__fondo" id="header__fondo">
+            <!-- Imágenes de fondo -->
+            <div class="fondosHero" id="fondoHero01"></div>
+            <div class="fondosHero" id="fondoHero02"></div>
+            <div class="fondosHero" id="fondoHero03"></div>
+
+            <!-- Menú de navecación -->
+            <div id="superior" class="superior">
+                <a class="superior__logo" href="index.html">
+                    <img class="logo" id="logo" src="Logos/logo_peq.webp" alt="Logo" title="Logo">
+                </a>
+                <nav class="superior__menu">
+                    <ul id="menu" class="menu__lista">
+                        <li class="lista__item"><a class="item__enlace" href="#section1">sobre mi</a></li>
+                        <li class="lista__item"><a class="item__enlace" href="#section2">trabajo</a></li>
+                        <li class="lista__item"><a class="item__enlace" href="#section3">tecnologías</a></li>
+                        <li class="lista__item"><a class="item__enlace" href="#section4">marca</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Texto bienvenida -->
+            <div class="header__texto">
+                <p class="ht__p1">
+                    hola mundo! soy felipe y trabajo en
+                </p>
+                <p class="ht__p2">
+                    digitalización de procesos_
+                </p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section id="section1" class="main__section">
+            <span class="contenedor">
+                <div class="col1">
+                    <h2>sobre mi_</h2>
+                    <p>
+                        me formé como ingeniero constructor en la universidad de valparaíso (chile) y me especialicé en gestión de edificación en la universitat politècnica de valència (españa).
+                    </p>
+                    <p>
+                        después de pasar un tiempo en ejecución de obras llegué un trabajo en el cual nos especializamos en la transformación del sector de la construcción a través de la digitalización y la metodología lean, siempre me gustó el mundo digital, pero es aquí donde decido profundizar mis conocimientos para seguir colaborando en la revolución del sector de la construcción, a través de iFP y formación autodidacta.
+                    </p>
+                    <a target="_blank" href="https://www.linkedin.com/in/felipe-monsalve-m/">
+                        <img class="section__ico" alt="linkedin" src="Logos/linkedin.png">
+                    </a>
+                </div>
+                <div class="section__imgs col2">
+                    <img class="section__img" alt="Logo UV" src="img/uv.webp">
+                    <img class="section__img" alt="Logo UPV" src="img/upv.webp">
+                    <img class="section__img" alt="Logo iFP" src="img/ifp-logo.webp">
+                </div>
+            </span>
+        </section>
+
+        <div class="parallax-window" data-parallax="scroll" data-z-index="0" data-image-src="img/valencia.webp"></div>
+
+        <section id="section2" class="main__section">
+            <span class="contenedor">
+                <div class="col1">
+                    <h2>trabajo_</h2>
+                    <p>
+                        actualmente trabajo en una empresa de planificación de proyectos de construcción, THiNK productivity, dónde a través de la filosofía de lean construction y contamos con nuestro propio software de planificación, COCOPLAN.
+                    </p>
+                    <p>
+                        entre mis funciones, me dedico al tratamiento y análisis de los datos recogidos, análisis de necesidades y preparación de especificaciones para desarrollos y construcción de herramientas para las necesidades de nuestros clientes.
+                    </p>
+                </div>
+                <div class="section__imgs col2">
+                    <img class="section__img" alt="Logo THiNK productivity" src="img/think.webp">
+                    <img class="section__img" alt="Logo THiNK productivity" src="img/cocoplan.webp">
+                </div>
+            </span>
+        </section>
+
+        <div class="parallax-window" data-parallax="scroll" data-z-index="0" data-image-src="img/planta.webp"></div>
+
+        <section id="section3" class="main__section">
+            <span class="contenedor contenedor--flex">
+                <h2>tecnologías & herramientas empleadas_</h2>
+                <div class="contenedor__tecnologias">
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
+                        <img class="tarjeta__ico" alt="Microsoft Power BI" src="Logos/PowerBI.png">
+                        <div class="tarjeta__desc">
+                            <p>visualización y análisis de datos_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
+                        <img class="tarjeta__ico" alt="Excel" src="Logos/mos.png">
+                        <div class="tarjeta__desc">
+                            <p>certificación Microsoft Office Specialist Excel Expert_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
+                        <img class="tarjeta__ico" alt="Microsoft Project" src="Logos/project.png">
+                        <div class="tarjeta__desc">
+                            <p>software de planificación de proyectos_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
+                        <img class="tarjeta__ico" alt="Presto" src="Logos/presto.png">
+                        <div class="tarjeta__desc">
+                            <p>software de control presupuestario_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
+                        <img class="tarjeta__ico" alt="PostgreSQL" src="Logos/postgre.png">
+                        <div class="tarjeta__desc">
+                            <p>bases de datos_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
+                        <img class="tarjeta__ico" alt="MariaDB" src="Logos/mariadb.png">
+                        <div class="tarjeta__desc">
+                            <p>bases de datos_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="PHP" src="Logos/php.png">
+                        <div class="tarjeta__desc">
+                            <p>lenguaje backend_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="HTML" src="Logos/html-5.png">
+                        <div class="tarjeta__desc">
+                            <p>lenguaje frontend_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="CSS" src="Logos/css-3.png">
+                        <div class="tarjeta__desc">
+                            <p>lenguaje frontend_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="JavaScript" src="Logos/js.png">
+                        <div class="tarjeta__desc">
+                            <p>lenguaje entorno cliente_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="Git & GitHub" src="Logos/github.png">
+                        <div class="tarjeta__desc">
+                            <p>control de versiones con GitHub_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="Figma" src="Logos/figma.png">
+                        <div class="tarjeta__desc">
+                            <p>software de prototipado de aplicaciones y webs_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="750">
+                        <img class="tarjeta__ico" alt="Aprendiendo" src="Logos/aprender-en-linea.png">
+                        <div class="tarjeta__desc">
+                            <p>aprendizaje contínuo de nuevas herramientas y metodologías_</p>
+                        </div>
+                    </div>
+                </div>
+            </span>
+        </section>
+
+        <div class="parallax-window" data-parallax="scroll" data-z-index="0" data-image-src="img/valparaiso.webp"></div>
+
+        <section id="section4" class="main__section">
+            <span class="contenedor">
+                <div class="col1">
+                    <h2>marca_</h2>
+                    <p>
+                        ¿por qué un ornitorrinco verde? inicié mi vida laboral en el sector de la construcción, pasando por áreas como edificación residencial hasta minería, y actualmente trabajo en el sector IT.
+                    </p>
+                    <p>
+                        el ornitorrinco es un animal que mezcla partes tan distintas como el pico de un pato y el cuerpo de un castor, creando una unión que funciona.
+                    </p>
+                    <p>
+                        en mi caso, he tenido la suerte de participar en la unión de dos mundos tan distintos como lo son el de la construcción con el sector IT.
+                    </p>
+                    <p>
+                        el color verde es tanto una elección por gusto personal como un guiño hacia sostenibilidad a la que evoluciona el sector de la construcción.
+                    </p>
+                </div>
+                <div class="section__imgs col2">
+                    <img class="section__img" alt="Logo ornitorrinco" data-aos="flip-right" data-aos-delay="500" src="Logos/Logo.webp">
+                </div>
+            </span>
+        </section>
+
+        <div class="parallax-window" data-parallax="scroll" data-z-index="0" data-image-src="img/platypus.webp"></div>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="contenedor--footer">
+            <p id="recursos" class="lista__item">recursos_
+                <ul class="lista__desplegable">
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/edificio-sitio-de-construcci%C3%B3n-1199586/">
+                            Grúas de construcción
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/datos-gr%C3%A1fico-grafico-monitor-4570804/">
+                            Indicadores
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/programaci%C3%B3n-html-as1-javascript-1873854/">
+                            Código
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/arquitectura-santiago-calatrava-1291643/">
+                            Ciudad de las Artes y las Ciencias - Valencia
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/planta-industrial-abandonado-3669432/">
+                            Planta industrial
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/valpara%C3%ADso-arquitectura-sudamerica-350516/">
+                            Valparaíso
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixabay.com/es/photos/ornitorrinco-monotrema-mam%C3%ADfero-3762257/">
+                            Ornitorrinco
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/php_5968332?term=php&page=1&position=5&origin=search&related_id=5968332">
+                            Ícono PHP
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/html-5_5968267?term=html&page=1&position=2&origin=search&related_id=5968267">
+                            Ícono HTML
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/css-3_5968242?term=css&page=1&position=4&origin=search&related_id=5968242">
+                            Ícono CSS
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/css-3_5968242?term=css&page=1&position=4&origin=search&related_id=5968242">
+                            Ícono JavaScript
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/postgre_5968342?term=postgres&page=1&position=1&origin=search&related_id=5968342">
+                            Ícono PostgreSQL
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://icon-icons.com/es/icono/mariadb-logo/168996">
+                            Ícono MariaDB
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/github_733553?term=github&page=1&position=1&origin=search&related_id=733553">
+                            Ícono GitHub
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://icons8.com/icon/7lJtplrxEIbD/microsoft-project-2019">
+                            Ícono Microsoft Project
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/figma_5968705?term=figma&page=1&position=2&origin=search&related_id=5968705">
+                            Ícono Figma
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/aprender-en-linea_3031990?term=learning&page=1&position=16&origin=search&related_id=3031990">
+                            Ícono aprendizaje
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/logotipo-de-linkedin_4096186?term=linkedin&page=1&position=27&origin=search&related_id=4096186">
+                            Ícono Linked In
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://michalsnik.github.io/aos/">
+                            Librería AOS
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://pixelcog.github.io/parallax.js/">
+                            Librería Simple Parallax Scrolling
+                        </a>
+                    </li>
+                </ul>
+            </p>
+            <p>felipe monsalve_ valencia <span id="currentYear"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        setInterval(slideshowAnim,3000);
+        AOS.init();
+    </script>
+</body>
+</html>
+
+<!-- 
+    ENLACES FOTOS PIXABAY
+     - Grúas de construcción: https://pixabay.com/es/photos/edificio-sitio-de-construcci%C3%B3n-1199586/
+     - KPIs: https://pixabay.com/es/photos/datos-gr%C3%A1fico-grafico-monitor-4570804/
+     - Código: https://pixabay.com/es/photos/programaci%C3%B3n-html-as1-javascript-1873854/
+     - Valencia: https://pixabay.com/es/photos/arquitectura-santiago-calatrava-1291643/
+     - Planta industrial: https://pixabay.com/es/photos/planta-industrial-abandonado-3669432/
+     - Valparaíso: https://pixabay.com/es/photos/valpara%C3%ADso-arquitectura-sudamerica-350516/
+     - Ornitorrinco: https://pixabay.com/es/photos/ornitorrinco-monotrema-mam%C3%ADfero-3762257/
+    
+    LOGOS
+     - PHP: https://www.flaticon.es/icono-gratis/php_5968332?term=php&page=1&position=5&origin=search&related_id=5968332
+     - HTML: https://www.flaticon.es/icono-gratis/html-5_5968267?term=html&page=1&position=2&origin=search&related_id=5968267
+     - CSS: https://www.flaticon.es/icono-gratis/css-3_5968242?term=css&page=1&position=4&origin=search&related_id=5968242
+     - JS: https://www.flaticon.es/icono-gratis/css-3_5968242?term=css&page=1&position=4&origin=search&related_id=5968242
+     - PostgreSQL: https://www.flaticon.es/icono-gratis/postgre_5968342?term=postgres&page=1&position=1&origin=search&related_id=5968342
+     - MariaDB: https://icon-icons.com/es/icono/mariadb-logo/168996
+     - GitHub: https://www.flaticon.es/icono-gratis/github_733553?term=github&page=1&position=1&origin=search&related_id=733553
+     - Project: https://icons8.com/icon/7lJtplrxEIbD/microsoft-project-2019
+     - Aprender: https://www.flaticon.es/icono-gratis/aprender-en-linea_3031990?term=learning&page=1&position=16&origin=search&related_id=3031990
+     - Figma: https://www.flaticon.es/icono-gratis/figma_5968705?term=figma&page=1&position=2&origin=search&related_id=5968705
+ -->
