@@ -1,4 +1,4 @@
-//Carrusel:::::::::::::::::::::::::
+//Carrusel
 var bgCounter = 0; //Contador de las imágenes de background.
 
 function heroSlideshow() {
@@ -97,10 +97,10 @@ function esconderMostrarMenu() {
         //document.getElementById("superior").style.display = "flex";
         document.getElementById("superior").style.top = "0";
 
-        document.getElementById("superior").style.height = "10rem";
+        document.getElementById("superior").style.height = "auto";
     }
     else {
-        document.getElementById("superior").style.top = "-10rem";
+        document.getElementById("superior").style.top = "-100%";
     }
 
     //Actualizamos la variable de posición previa
