@@ -210,7 +210,7 @@ p:last-of-type {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 0 2rem;
+        padding: 1rem;
     }
 }
 
@@ -218,6 +218,10 @@ p:last-of-type {
     .superior__menu {
         width: 100%;
     }
+}
+
+.logo {
+    height: 6rem;
 }
 
 
@@ -364,6 +368,10 @@ p:last-of-type {
     }
 }
 
+.contenedor--flex > p {
+    margin-bottom: 2rem;
+}
+
 #section1 {
     background: linear-gradient(to right, var(--dorado700), var(--dorado500));
 }
@@ -418,6 +426,69 @@ p:last-of-type {
     font-size: 2.5rem;
     transition-property: color, font-weigh, font-size;
     transition-duration: 0.75s;
+}
+
+/* Tarjetas tecnologías */
+.contenedor__proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#proyectos {
+    margin-bottom: 10rem;
+}
+
+.tarjeta_proy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--blanco);
+    align-items: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.tarjeta_proy h4 {
+    color: var(--dorado700);
+}
+
+.tarjeta_proy p {
+    width: 100%;
+    color: var(--gris900);
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.tarjeta_proy a {
+    width: 100%;
+    color: var(--dorado700);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.tarjeta_proy a:hover {
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tarjeta_proy-icon {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+} 
+
+.tarjeta_proy-icon i {
+    font-size: 4.5rem;
+    text-align: center;
+    color: var(--dorado700);
 }
 
 /* Tarjetas tecnologías */

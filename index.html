@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Felipe Monsalve" />
     <title>Felipe Monsalve</title>
+    <link rel="icon" href="Logos/logo_peq.webp" type="image/x-icon">
 
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Estidos -->
     <link rel="Preload" href="normalize.css" as="style">
@@ -46,7 +48,7 @@
                     <ul id="menu" class="menu__lista">
                         <li class="lista__item"><a class="item__enlace" href="#section1">sobre mi</a></li>
                         <li class="lista__item"><a class="item__enlace" href="#section2">trabajo</a></li>
-                        <li class="lista__item"><a class="item__enlace" href="#section3">tecnologías</a></li>
+                        <li class="lista__item"><a class="item__enlace" href="#section3">proyectos & tecnologías</a></li>
                         <li class="lista__item"><a class="item__enlace" href="#section4">marca</a></li>
                         
                     </ul>
@@ -77,6 +79,9 @@
                     </p>
                     <a target="_blank" href="https://www.linkedin.com/in/felipe-monsalve-m/">
                         <img class="section__ico" alt="linkedin" src="Logos/linkedin.png">
+                    </a>
+                    <a target="_blank" href="https://github.com/phillmm">
+                        <img class="section__ico" alt="linkedin" src="Logos/github-white.png">
                     </a>
                 </div>
                 <div class="section__imgs col2">
@@ -111,6 +116,47 @@
 
         <section id="section3" class="main__section">
             <span class="contenedor contenedor--flex">
+                <h2>algunos proyectos_</h2>
+
+                <p>en esta sección iré publicando algunos pequeños trabajos que voy creando por mi cuenta para poner en práctica lo aprendido_</p>
+
+                <div id="proyectos" class="contenedor__proyectos">
+                    <div class="tarjeta_proy" data-aos="flip-left" data-aos-delay="250">
+                        <h4>portfolio personal_</h4>
+                        <p>portfolio personal construido con html, css y js, alojado en github_</p>
+                        <a href="https://github.com/phillmm/phillmm" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            ver código_
+                        </a>
+                        <div class="tarjeta_proy-icon">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta_proy" data-aos="flip-left" data-aos-delay="250">
+                        <h4>juego de lanzamiento de dado_</h4>
+                        <p>juego sencillo en el que se debe adivinar el número que saldrá al tirar un dado, construido con html, css y js (las imágenes de los dados fueron dibujadas con figma)_</p>
+                        <a href="https://fm-juegodados.netlify.app/" target="_blank">
+                            <i class="fa-solid fa-circle-right"></i>
+                            visitar_
+                        </a>
+                        <a href="https://github.com/phillmm/dado" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            ver código_
+                        </a>
+                        <div class="tarjeta_proy-icon">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-figma"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+
                 <h2>tecnologías & herramientas empleadas_</h2>
                 <div class="contenedor__tecnologias">
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="250">
@@ -152,7 +198,7 @@
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
                         <img class="tarjeta__ico" alt="PHP" src="Logos/php.png">
                         <div class="tarjeta__desc">
-                            <p>lenguaje backend_</p>
+                            <p>backend, poo_</p>
                         </div>
                     </div>
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
@@ -164,31 +210,43 @@
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
                         <img class="tarjeta__ico" alt="CSS" src="Logos/css-3.png">
                         <div class="tarjeta__desc">
-                            <p>lenguaje frontend_</p>
+                            <p>hojas de estilos_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
+                        <img class="tarjeta__ico" alt="SASS" src="Logos/sass.png">
+                        <div class="tarjeta__desc">
+                            <p>hojas de estilos_</p>
                         </div>
                     </div>
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
                         <img class="tarjeta__ico" alt="JavaScript" src="Logos/js.png">
                         <div class="tarjeta__desc">
-                            <p>lenguaje entorno cliente_</p>
+                            <p>interactividad con JS_</p>
                         </div>
                     </div>
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
                         <img class="tarjeta__ico" alt="Git & GitHub" src="Logos/github.png">
                         <div class="tarjeta__desc">
-                            <p>control de versiones con GitHub_</p>
+                            <p>control de versiones con Git & GitHub_</p>
                         </div>
                     </div>
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="500">
                         <img class="tarjeta__ico" alt="Figma" src="Logos/figma.png">
                         <div class="tarjeta__desc">
-                            <p>software de prototipado de aplicaciones y webs_</p>
+                            <p>prototipado de aplicaciones y webs_</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" data-aos="flip-left" data-aos-delay="750">
+                        <img class="tarjeta__ico" alt="Aprendiendo" src="Logos/ubuntu.png">
+                        <div class="tarjeta__desc">
+                            <p>ubuntu linux_</p>
                         </div>
                     </div>
                     <div class="tarjeta" data-aos="flip-left" data-aos-delay="750">
                         <img class="tarjeta__ico" alt="Aprendiendo" src="Logos/aprender-en-linea.png">
                         <div class="tarjeta__desc">
-                            <p>aprendizaje contínuo de nuevas herramientas y metodologías_</p>
+                            <p>aprendizaje contínuo_</p>
                         </div>
                     </div>
                 </div>
@@ -279,6 +337,11 @@
                         </a>
                     </li>
                     <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://icons8.com/icon/set/sass/windows">
+                            Ícono SASS
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
                         <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/css-3_5968242?term=css&page=1&position=4&origin=search&related_id=5968242">
                             Ícono JavaScript
                         </a>
@@ -309,6 +372,11 @@
                         </a>
                     </li>
                     <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/ubuntu_888879?term=ubuntu&page=1&position=1&origin=search&related_id=888879">
+                            Ícono Ubuntu
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
                         <a class="item__enlace" target="_blank" href="https://www.flaticon.es/icono-gratis/aprender-en-linea_3031990?term=learning&page=1&position=16&origin=search&related_id=3031990">
                             Ícono aprendizaje
                         </a>
@@ -326,6 +394,11 @@
                     <li class="desplegable__item">
                         <a class="item__enlace" target="_blank" href="https://pixelcog.github.io/parallax.js/">
                             Librería Simple Parallax Scrolling
+                        </a>
+                    </li>
+                    <li class="desplegable__item">
+                        <a class="item__enlace" target="_blank" href="https://fontawesome.com/">
+                            Íconos de Font Awesome
                         </a>
                     </li>
                 </ul>
