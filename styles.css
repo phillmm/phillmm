@@ -253,9 +253,10 @@ p:last-of-type {
 
 @media (min-width: 768px) {
     .lista__item {
-        width: 15rem;
+        width: auto;
         padding: 0;
         margin: 0;
+        margin-right: 5rem;
     }
 }
 
